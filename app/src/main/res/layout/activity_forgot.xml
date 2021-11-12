@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1F0EB"
+    tools:context="com.myplans.myplan.activity_forgot">
+
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="134dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="forgot"
+        android:textColor="#1DA497"
+        android:textColorLink="#00BCD4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lets"
+        android:layout_width="177dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Let's Get You"
+        android:textColor="#7D8887"
+        android:textColorLink="#00BCD4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/emailor"
+        android:layout_width="261dp"
+        android:layout_height="53dp"
+        android:background="@drawable/custom_input"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+
+        android:hint="Email or phone number"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="261dp"
+        android:layout_height="58dp"
+        android:text="Reset"
+        android:background="@drawable/button"
+        android:textColor="#FFFEFE"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#1DAF9C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to login?"
+        android:textColor="#7F938F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/signforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sing in"
+        android:textColor="#22A195"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
